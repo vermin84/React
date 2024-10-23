@@ -1,0 +1,1 @@
+import{h as o,u as i,j as s,L as n,M as u}from"./index-99c760a9.js";import{G as m}from"./GridContainer-cc56d2ed.js";import{M as d}from"./MovieCard-8568561a.js";function p(){const{results:r}=o(),{data:e,isLoading:t}=i(["search all movie list",r],()=>u(r));return t?s.jsx(n,{}):s.jsx(m,{children:e.map(a=>s.jsx(d,{movie:a},a.id))})}export{p as default};
